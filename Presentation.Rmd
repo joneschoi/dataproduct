@@ -1,0 +1,45 @@
+---
+title: "Course Project: Shiny Application and Reproducible Pitch"
+author: "Jones"
+date: "2017-05-07"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Instructions
+
+This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+## Data Use in Project: Air Quality
+
+Daily air quality measurements in New York, May to September 1973.
+
+- Ozone: Mean ozone in parts per billion from 1300 to 1500 hours at Roosevelt Island
+
+- Solar.R: Solar radiation in Langleys in the frequency band 4000–7700 Angstroms from 0800 to 1200 hours at Central Park
+
+- Wind: Average wind speed in miles per hour at 0700 and 1000 hours at LaGuardia Airport
+
+- Temp: Maximum daily temperature in degrees Fahrenheit at La Guardia Airport.
+
+## Data Sample
+
+```{r cars, echo = TRUE}
+summary(airquality)
+```
+
+## Final output
+
+Below Shiny Application show the trend that how Ozone affect Temperature per month
+
+<https://jonci.shinyapps.io/firstApp/>
+
+Below github link show the original code for Shiny Application
+
+<>
+
+
+
